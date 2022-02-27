@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+nav {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+.nav-rogo {
+  width:40%;
+}
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 30px;
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+#main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  text-align: center;
+}
+.main-logo1 {
+  color: #FAFAFA;
+  font-size: 64px;
+  padding-top: 200px;
+}
+.main-logo2 {
+  color: #FAFAFA;
+  font-size: 20px;
+}
+
+#portfolio {
+  background-color: #ECEFF1;
+}
+.main-content {
+  margin: 0 auto;
+  text-align: center;
+  color: #000000;
+}
+.portfolio {
+  width: 920px;
+}
+.main-content h3 {
+  padding-top: 90px;
+  font-size: 32px;
+  position: relative;
+}
+.main-content h3::after {
+	content: '';
+	display: block;
+	position: absolute;
+  bottom: -8px; /* 下線の上下位置調整 */
+	left: 50%; /* 位置調整 */
+	transform: translate(-60%); /* 位置調整 */
+	width: 70px; /* 下線の幅 */
+	height: 3px; /* 下線の太さ */
+	background-color: #EC715F; /* 下線の色 */
+}
+.main-content p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+.content-image {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+.portfplio-image {
+  width: 300px;
+  height: 250px;
+  padding-right: 10px;
+}
+.portfplio-image:nth-child(3) {
+  padding-right: 0;
+}
+.portfplio-image:nth-child(6) {
+  padding-right: 0;
+}
+
+.feature {
+  width: 980px;
+}
+.message {
+  display: flex;
+  flex-wrap: wrap;
+}
+.message-item {
+  width:320px;
+  padding-right: 10px;
+}
+.message-item:last-child {
+  padding-right: 0;
+}
+.title {
+  padding-top: 10px;
+  font-size: 20px;
+}
+i {
+  font-family: "Font Awesome 5 Free"; /*←ココ！！！！！！！*/
+  font-weight: 900;
+  font-size: 60px
+}
